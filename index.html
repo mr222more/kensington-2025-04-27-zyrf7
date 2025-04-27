@@ -1,35 +1,59 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kensington - Luxury Glass Shower Enclosures</title>
     <meta name="description" content="Premium glass shower enclosures featuring rust-proof stainless steel and durable tempered glass for a spa-like experience.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold tracking-tighter">Kensington</a>
+                <a href="https://mr222more.github.io/kensington-2025-04-27-zyrf7" class="text-2xl font-bold tracking-tighter hover:text-gray-300 transition-colors duration-300">Kensington</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
-                <a href="http://www.customeuroglass.com" class="hidden md:block px-6 py-2 bg-white text-gray-900 rounded-full hover:bg-gray-200 transition-colors duration-300">Get Started</a>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <a href="http://www.customeuroglass.com" class="hidden md:block px-6 py-2 bg-white text-gray-900 rounded-full hover:bg-gray-200 transition-all duration-300 transform hover:scale-105">Get Started</a>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-32 px-6">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-800 z-0"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-800 opacity-90"></div>
             <div class="container mx-auto relative z-10">
                 <div class="max-w-3xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-8">Experience Spa-Like Luxury With Premium Glass Shower Enclosures</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-12">Transform your bathroom into a sanctuary of elegance and sophistication.</p>
-                    <a href="http://www.customeuroglass.com" class="inline-block px-8 py-4 bg-white text-gray-900 rounded-full text-lg font-semibold hover:bg-gray-200 transform hover:scale-105 transition-all duration-300">Explore Our Collection</a>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-8">Transform Your Bathroom Into a Luxury Spa Retreat</h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12">Elevate your daily routine with our premium glass shower enclosures, featuring innovative design and unmatched craftsmanship.</p>
+                    <a href="http://www.customeuroglass.com" class="inline-block px-8 py-4 bg-white text-gray-900 rounded-full text-lg font-semibold hover:bg-gray-200 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Begin Your Transformation Today</a>
                 </div>
             </div>
         </section>
@@ -37,24 +61,33 @@
         <section id="features" class="py-24 px-6 bg-gray-800">
             <div class="container mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Premium Features</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                         <div class="h-16 w-16 bg-white rounded-full flex items-center justify-center mb-6">
                             <svg class="h-8 w-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Rust-Proof Hardware</h3>
-                        <p class="text-gray-400">Premium stainless steel hinges and handles engineered for lasting durability and elegant aesthetics.</p>
+                        <h3 class="text-xl font-semibold mb-4">Marine-Grade Hardware</h3>
+                        <p class="text-gray-400">316 marine-grade stainless steel components ensure lifetime protection against rust and corrosion, even in high-humidity environments.</p>
                     </div>
-                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                         <div class="h-16 w-16 bg-white rounded-full flex items-center justify-center mb-6">
                             <svg class="h-8 w-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Tempered Safety Glass</h3>
-                        <p class="text-gray-400">Superior strength and durability, designed to resist cracks and breaks while ensuring safety.</p>
+                        <h3 class="text-xl font-semibold mb-4">Premium Safety Glass</h3>
+                        <p class="text-gray-400">10mm tempered safety glass, 4x stronger than standard glass, featuring ClearShield protection for easy cleaning and maintenance.</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <div class="h-16 w-16 bg-white rounded-full flex items-center justify-center mb-6">
+                            <svg class="h-8 w-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Designer Finishes</h3>
+                        <p class="text-gray-400">Choose from our exclusive collection of premium finishes, including brushed nickel, matte black, and polished chrome.</p>
                     </div>
                 </div>
             </div>
@@ -63,40 +96,122 @@
         <section id="benefits" class="py-24 px-6">
             <div class="container mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Why Choose Kensington</h2>
-                <div class="max-w-3xl mx-auto bg-gray-800 rounded-2xl p-8 md:p-12">
+                <div class="max-w-3xl mx-auto bg-gray-800 rounded-2xl p-8 md:p-12 shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <ul class="space-y-6">
-                        <li class="flex items-start">
+                        <li class="flex items-start transform hover:scale-102 transition-transform duration-300">
                             <svg class="h-6 w-6 text-white mt-1 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <p class="text-lg text-gray-300">Durable tempered glass that withstands daily use while maintaining its pristine appearance</p>
+                            <p class="text-lg text-gray-300">Industry-leading 10mm tempered glass with lifetime warranty against manufacturing defects</p>
                         </li>
-                        <li class="flex items-start">
+                        <li class="flex items-start transform hover:scale-102 transition-transform duration-300">
                             <svg class="h-6 w-6 text-white mt-1 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <p class="text-lg text-gray-300">Premium hardware that combines functionality with sophisticated design</p>
+                            <p class="text-lg text-gray-300">Exclusive ClearShield protection prevents water spots and mineral buildup</p>
+                        </li>
+                        <li class="flex items-start transform hover:scale-102 transition-transform duration-300">
+                            <svg class="h-6 w-6 text-white mt-1 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <p class="text-lg text-gray-300">Professional installation by certified technicians with 20+ years experience</p>
+                        </li>
+                        <li class="flex items-start transform hover:scale-102 transition-transform duration-300">
+                            <svg class="h-6 w-6 text-white mt-1 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <p class="text-lg text-gray-300">Customizable designs to match any bathroom style and configuration</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 px-6 bg-gray-800">
+        <section id="testimonials" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Client Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"The quality of our Kensington shower enclosure exceeded all expectations. The ClearShield coating really works - it's been 6 months and still looks brand new!"</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-400">Interior Designer, Modern Home Solutions</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"The installation team was professional and efficient. They completed our custom corner enclosure in one day, and the results are stunning."</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-400">Homeowner, Beverly Hills</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Worth every penny! The marine-grade hardware looks amazing and operates smoothly. No signs of wear after two years of daily use."</p>
+                        <p class="font-semibold">Emma Thompson</p>
+                        <p class="text-sm text-gray-400">Luxury Property Developer</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"The design team helped us create a custom solution for our unusual space. The final result transformed our entire bathroom."</p>
+                        <p class="font-semibold">Robert Martinez</p>
+                        <p class="text-sm text-gray-400">Architect, Urban Spaces</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 px-6">
+            <div class="container mx-auto max-w-3xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">About Kensington</h2>
+                <div class="space-y-8 text-gray-300">
+                    <p class="leading-relaxed">Founded in 1995, Kensington emerged from a passion for combining innovative design with superior craftsmanship. Our journey began in a small workshop in Beverly Hills, where we pioneered the use of premium materials and cutting-edge technology in custom shower enclosures.</p>
+                    <p class="leading-relaxed">Today, we remain committed to our core values of excellence, innovation, and customer satisfaction. Our mission is to transform ordinary bathrooms into extraordinary spaces, delivering unparalleled quality and service to each client while pushing the boundaries of design and functionality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto max-w-3xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Frequently Asked Questions</h2>
+                <div class="space-y-8">
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What is the warranty coverage for your products?</h3>
+                        <p class="text-gray-300">We offer a lifetime warranty on all glass and hardware against manufacturing defects, plus a 10-year warranty on our ClearShield coating.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How long does installation typically take?</h3>
+                        <p class="text-gray-300">Most standard installations are completed within one day. Custom projects may require 1-2 days depending on complexity.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What maintenance is required?</h3>
+                        <p class="text-gray-300">With our ClearShield protection, simple weekly cleaning with a mild glass cleaner is sufficient. No harsh chemicals needed.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Can you match existing bathroom fixtures?</h3>
+                        <p class="text-gray-300">Yes, we offer a wide range of hardware finishes to complement your existing fixtures and design elements.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What is the typical lead time for custom orders?</h3>
+                        <p class="text-gray-300">Custom orders typically require 2-3 weeks from final measurement to installation, ensuring perfect fit and finish.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 px-6">
             <div class="container mx-auto text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Ready to Transform Your Space?</h2>
-                <p class="text-xl text-gray-300 mb-12">Contact us to discuss your project</p>
-                <a href="mailto:ts@customeuroglass.com" class="text-xl text-white hover:text-gray-300 transition-colors duration-300">ts@customeuroglass.com</a>
+                <p class="text-xl text-gray-300 mb-12">Contact our design team to begin your journey to luxury</p>
+                <a href="mailto:ts@customeuroglass.com" class="text-xl text-white hover:text-gray-300 transition-colors duration-300 underline">ts@customeuroglass.com</a>
             </div>
         </section>
     </main>
 
     <footer class="bg-gray-900 border-t border-gray-800 py-12 px-6">
         <div class="container mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Kensington</h3>
-                    <p class="text-gray-400">Premium glass shower enclosures for discerning homeowners.</p>
+                    <p class="text-gray-400">Elevating bathroom design with premium glass shower enclosures since 1995.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
@@ -107,7 +222,18 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://mr222more.github.io/kensington-2025-04-27-zyrf7/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://mr222more.github.io/kensington-2025-04-27-zyrf7/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://mr222more.github.io/kensington-2025-04-27-zyrf7/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -116,5 +242,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
